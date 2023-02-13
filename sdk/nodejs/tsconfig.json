@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true,
+        "stripInternal": true,
+        "experimentalDecorators": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true
+    },
+    "files": [
+        "index.ts",
+        "provider.ts",
+        "talosClientConfiguration.ts",
+        "talosClusterKubeconfig.ts",
+        "talosMachineBootstrap.ts",
+        "talosMachineConfigurationApply.ts",
+        "talosMachineConfigurationControlplane.ts",
+        "talosMachineConfigurationWorker.ts",
+        "talosMachineSecrets.ts",
+        "utilities.ts"
+    ]
+}
